@@ -1,0 +1,150 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: whitesmoke;
+}
+header  {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+}
+button {
+   height: 56px;
+   width: 254px;
+   border-radius: 10px;
+   margin-right: 10px;
+   margin-bottom: 50px;
+   transition: 0.5s;
+}
+button:hover{
+   background-color: rgba(255, 255, 255, 0.84);
+}
+.bb {
+   display: flex;
+   justify-content: center;
+
+}
+header h1 {
+   margin-right: 10px;
+}
+
+header h1:nth-child(3) {
+   margin-left: 10px;
+}
+.cont {
+   height: 1050px;
+   width: 1518px;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+.box {
+   height: 475px;
+   width: 364px;
+   border: 1px solid black;
+   margin-right: 5px;
+   /* margin-bottom: 20px; */
+}
+
+.topp {
+   height: 200px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.botttom {
+   height: 273px;
+   width: 100%;
+   background-color: rgb(0, 0, 0);
+   padding-top: 30px;
+}
+
+p {
+   font-weight: 600;
+   font-size: 24px;
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+
+
+}
+
+p:nth-child(2) {
+   width: 297px;
+   height: 51px;
+   margin-left: 35px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   color: rgba(255, 255, 255, 0.56);
+   margin-top: 11px;
+}
+
+.yacheyka {
+   display: flex;
+   margin-top: 15px;
+}
+
+.yacheyka1 {
+   height: 30px;
+   width: 70px;
+   margin-left: 35px;
+   margin-right: 5px;
+   display: flex;
+   justify-content: center;
+   background-image: url(./8725897_dollar_alt_icon.png);
+   background-size: 34%;
+   background-position: left;
+   background-repeat: no-repeat;
+   padding-left: 20px;
+}
+
+.yacheyka2 {
+   height: 30px;
+   width: 70px;
+   margin-right: 5px;
+   display: flex;
+   justify-content: center;
+   background-image: url(./2303128_bookmark_favourite_marked_special_star_icon.png);
+   background-size: 33%;
+   background-position: left;
+   background-repeat: no-repeat;
+   padding-left: 20px;
+}
+
+.yacheyka3 {
+   height: 30px;
+   width: 70px;
+   display: flex;
+   justify-content: center;
+   background-image: url(./8725534_box_icon.png);
+   background-size: 35%;
+   background-position: left;
+   background-repeat: no-repeat;
+   padding-left: 20px;
+}
+
+.btn {
+   height: 55px;
+   width: 305px;
+   border-radius: 10px;
+   margin-top: 30px;
+   margin-left: 29px;
+}
+
+.btn_text {
+   font-size: 18px;
+   color: black;
+}
